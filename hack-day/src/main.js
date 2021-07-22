@@ -1,7 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-// import UserForm from './UserForm'
+import router from './router'
 
-createApp(App).mount('#app')
-// createApp(UserForm).mount('#app')
-
+createApp(App).use(router).mount('#app')
